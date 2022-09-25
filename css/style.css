@@ -1,0 +1,287 @@
+html, body {
+  background: #F7F5E6;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+nav{
+  background-color: darkcyan;
+  height: 70px;
+  width: auto;
+}
+.logo{
+      width: 100PX;
+      height: 70PX;
+      float: left;
+ 
+}
+nav ul{
+  margin: 0px;
+ list-style: none;
+ margin-left: 300px;
+ font-size: 20px;
+
+ 
+}
+nav ul li{
+  float: left;
+  padding-left: 30px;
+  margin-top: 30px;
+  
+  
+}
+nav ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: brown;
+}
+
+
+.introduction{
+  width: 100%;
+  height: 40%;
+  display: block;
+  position: relative;}
+  .introduction::after{
+    content: "";
+    background: url(img2.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+h1{
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+p{
+  color: black;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.text {
+  bottom: 3rem;
+  z-index: 10;
+}
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .text p{
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+}
+
+
+.over_all{
+  position: relative;
+  float: left;
+  text-align: center;
+}
+.interaction_all{
+  position: relative;
+  float: left;
+  font-size: 18px;
+}
+.interaction_all img{
+  float: left;
+position: relative;
+overflow: auto;
+border: goldenrod ;
+  width: 400px;
+  height: 400px;
+  padding-left: 5px;
+}
+.interaction{
+  position: relative;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+}
+.interaction img{
+  float: left;
+position: relative;
+overflow: auto;
+border: goldenrod ;
+  width: 400px;
+  height: 400px;
+  padding-left: 5px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+.footer-distributed{
+	background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+}
+.intro{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  
+}
+.intro::after{
+    content: "";
+    background: url(img.jpg);
+    opacity: 0.35;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+
+}
+.introduc{
+  width: 100%;
+  height: 70%;
+  display: block;
+  position: relative;
+  
+}
+.introduc::after{
+    content: "";
+    background: url(img.jpg);
+    opacity: 0.35;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+
+}
+
